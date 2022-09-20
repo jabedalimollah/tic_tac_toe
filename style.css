@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+.main{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    
+}
+table{
+    /* border: 2px solid rgb(255, 255, 255); */
+    text-align: center;
+    animation-name: sample;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            border-collapse: collapse;
+
+           
+}
+@keyframes sample{
+    0%{ box-shadow: 0 0 80px rgb(26, 26, 245); }
+    25%{ box-shadow: 0 0  80px rgb(30, 153, 30);}
+    50%{ box-shadow: 0 0 80px rgb(155, 31, 155); }
+    75%{box-shadow: 0 0 80px rgb(5, 91, 112);}
+    100%{box-shadow: 0 0 80px rgb(57, 6, 105);}
+}
+/* @keyframes sample{
+    0%{border-color: blue; background-color: rgb(8, 120, 172);}
+    25%{border-color: rgb(8, 121, 27); background-color:blue; color: white;}
+    50%{border-color: rgb(76, 0, 255); background-color:crimson;}
+    75%{border-color: rgb(7, 255, 255); background-color:darkgreen; color:white}
+    100%{border-color: rgb(249, 78, 255); background-color:darkred;}
+} */
+td{
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(139, 139, 139);
+    font-size: 30px;
+    color: white;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(248, 248, 248);
+    z-index: 3;
+    
+    background-color: rgba(10, 115, 235, 0.6);
+    font-size: xx-large;
+    color:rgb(19, 19, 19);
+   display: none;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+/* .cell1,.cell3,.cell7,.cell9{
+    border: none;
+} */
